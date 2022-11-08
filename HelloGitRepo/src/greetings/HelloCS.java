@@ -4,7 +4,7 @@ public class HelloCS {
 	
 	 public static void main(String[] args) {
 		  
-		  String[] names = { "Java", "Javascript", "Python", "C#", "HTML", "PHP" };
+		  String[] names = { "Java", "Javascript", "Python", "C#", "HTML", "PHP", "Ruby" };
 		  
 		  //print greetings
 
