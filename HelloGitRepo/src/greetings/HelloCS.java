@@ -6,13 +6,11 @@ public class HelloCS {
 		  
 		  String[] names = { "Java", "Javascript", "Python", "C#", "HTML", "PHP", "Ruby"};
 		  
-		  //print greetings
+		  //print greetings using author2
 
 		  for (String name: names) {
 		   System.out.format("Hello, %s!\n", name);
 		   System.out.println("How are you going today?");
-		   
-		  //it should be okay
+		  }
 	}
-}
 }
