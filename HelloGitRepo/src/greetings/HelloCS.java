@@ -4,14 +4,14 @@ public class HelloCS {
 	
 	 public static void main(String[] args) {
 		  
-		  String[] names = { "Java", "Javascript", "Python", "C#", "HTML" };
+		  String[] names = { "Java", "Javascript", "Python", "C#", "HTML", "PHP" };
 		  
-		  //print greetings using author2
+		  //print greetings
 
-		  for (String name: names) {
-		   System.out.format("Hello, %s!\n", name);
+		  for (int i = 0; i < names.length; i++) {
+		   System.out.format("Hello, %s!\n", names[i]);
 		   System.out.println("How are you going today?");
-		   System.out.println("Hello?");
+		   System.out.println("Hello World!");
 		  }
 	}
 }
