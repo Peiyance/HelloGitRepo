@@ -11,7 +11,7 @@ public class HelloCS {
 		  for (String name: names) {
 		   System.out.format("Hello, %s!\n", name);
 		   System.out.println("How are you going today?");
-		   System.out.println("Hello?");
+		   System.out.println("Hello Ha?");
 		  }
 	}
 }
