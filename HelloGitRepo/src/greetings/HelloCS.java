@@ -7,8 +7,8 @@ public class HelloCS {
 		  String[] names = { "Java", "Javascript", "Python", "C#", "HTML" };
 		  
 		  //print greetings
-		  for (int i = 0; i < names.length; i++) {
-		   System.out.format("Hello, %s!\n", names[i]);
+		  for (String name: names) {
+		   System.out.format("Hello, %s!\n", name);
 		  }
 		  //it should be okay
 	}
